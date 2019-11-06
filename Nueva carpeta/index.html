@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang= "es">
+	
+<head> 
+	<title>Slider Automatico</title>
+	<style type="text/css">
+		*{
+			padding:0px;
+			margin:0px;
+		}
+		#header{
+			margin:auto;
+			width:500px;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		ul,ol{
+			list-style:none;
+		}
+		.nav li a{
+			background-color:blue;
+			color:#fff;
+			text-decoration:none;
+			padding:10px 15px;
+			display:block;
+		}
+		.nav li a:hover {
+			background-color: #3b5bc4;
+		}
+		.nav > li{
+			float:left;
+		}
+		.nav li ul{
+			display:none;
+			position: absolute;
+			min-width:140px;
+		}
+		.nav li:hover > ul{
+			display:block;
+		}
+		.nav li ul li {
+			position:relative;
+		}
+		.nav li ul li ul{
+			right:-140px;
+			top:0px;
+		}
+	
+	</style>
+	<meta charset="UTF-8">
+	<meta name ="viewport" content="width=device-width, user-scalable=no, initial-scale=1,
+	maximun-scale=1, minimun-scale=1">
+	<link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+	<div id="header">
+		<ul class="nav">
+		<li><a href="">Inicio</a></li>
+		<li><a href="">Servicios</a>
+			<ul>
+				<li><a href="">Submenu 1</a></li>
+				<li><a href="">Submenu 2</a></li>
+				<li><a href="">Submenu 3</a></li>
+				<li><a href="">Submenu 4</a></li>
+					<ul>
+						<li><a href="">Submenu 1</a></li>
+						<li><a href="">Submenu 2</a></li>
+						<li><a href="">Submenu 3</a></li>
+						<li><a href="">Submenu 4</a></li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li><a href="">Acerca de</a>
+			<ul>
+				<li><a href="">Submenu 1</a></li>
+				<li><a href="">Submenu 2</a></li>
+				<li><a href="">Submenu 3</a></li>
+				<li><a href="">Submenu 4</a></li>
+			</ul>
+		</li>
+
+	</div>
+	
+<div class="slider">
+<ul>
+	<div class="slider">
+		<ul>
+			<li><img src="img/1.jpg" alt="" width="500", height="400"></li>
+			<li><img src="img/2.jpg" alt="" width="500", height="400"></li>
+			<li><img src="img/3.jpg" alt="" width="500", height="400"></li>
+		</ul>
+	</div>
+
+
+</ul>
+
+</div>
+
+	<h1>Erase una vez HTML</h1>
+	<h2>El padre </h2>
+	<p>El padre de la web,<strong>Tim Berners-Lee</strong>, es tambien el padre del lenguaje HTML</p>
+<h2>La estandarizacion</h2>
+<p>El lenguaje HTML esta estandarizado por el w3c, el <em>worl wide web consortium</em></p>
+<ul>
+	<li>primer elemento</li>
+	<li>segundo elemento</li>
+	<li>tercer elemento</li>
+	<li>cuarto elemento</li>
+</ul>
+<ol>
+	<li>primer elemento</li>
+	<li>segundo elemento</li>
+	<li>tercer elemento</li>
+	<li>cuarto elemento</li>
+</ol>
+
+</body>
+
+
+
+</html>
